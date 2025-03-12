@@ -54,7 +54,6 @@ pipeline {
                     npx playwright test
                 '''
             }
-            echo 'E2E'
 
         }
     }
