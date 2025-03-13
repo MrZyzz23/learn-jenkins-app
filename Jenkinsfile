@@ -33,6 +33,7 @@ pipeline {
 
             steps {
                 sh '''
+                    npm install -g serve 
                     test -f build/index.html
                     npm test
                 '''
