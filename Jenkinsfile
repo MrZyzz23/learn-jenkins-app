@@ -11,8 +11,7 @@ pipeline {
             //     }
             // }
             steps {
-                sh 'npm ci'
-                sh 'docker --version'
+                sh 'npm run build'
                 // sh '''
                 //     ls -la
                 //     node --version
